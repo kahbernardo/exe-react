@@ -6,5 +6,5 @@ const elemento = document.getElementById('root')
 
 ReactDOM.render(
     <div>
-        <Primeiro/>
+        <Primeiro valor="Propriedade texto" funcao={Math.pow(2,8)} var={0}/>
     </div>,elemento)
