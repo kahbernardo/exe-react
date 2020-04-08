@@ -3,13 +3,19 @@ import ReactDOM from 'react-dom'
 import Primeiro from './components/PrimeiroComponente'
 import A,{CompB as B} from './components/MultiComp'
 import MultiElementos from './components/MultiElementos'
-import Familia from './components/FamiliaBernardo'
+import FamiliaBernardo from './components/FamiliaBernardo'
+import Familia from './components/Familia'
+import Membro from './components/Membro'
 
 const elemento = document.getElementById('root')
 
 ReactDOM.render(
     <div>
-        <Familia/>
+        <Familia sobrenome="Bernardo">
+            <Membro nome="Kaique" />
+            <Membro nome="Charlotte" />
+        </Familia>
+        {/* <FamiliaBernardo/> */}
         {/* <MultiElementos/>
         <A valor="Olá A"/>
         <B valor="Olá B"/>
