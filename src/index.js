@@ -7,12 +7,14 @@ import FamiliaBernardo from './components/FamiliaBernardo'
 import Familia from './components/Familia'
 import Membro from './components/Membro'
 import ComponenteComFuncao from './components/ComponenteComFuncao'
+import Pai from './components/Pai'
 
 const elemento = document.getElementById('root')
 
 ReactDOM.render(
     <div>
-        <ComponenteComFuncao/>
+        <Pai/>
+        {/* <ComponenteComFuncao/> */}
         {/* <Familia sobrenome="Bernardo">
             <Membro nome="Kaique" />
             <Membro nome="Charlotte" />
