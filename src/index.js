@@ -6,15 +6,17 @@ import MultiElementos from './components/MultiElementos'
 import FamiliaBernardo from './components/FamiliaBernardo'
 import Familia from './components/Familia'
 import Membro from './components/Membro'
+import ComponenteComFuncao from './components/ComponenteComFuncao'
 
 const elemento = document.getElementById('root')
 
 ReactDOM.render(
     <div>
-        <Familia sobrenome="Bernardo">
+        <ComponenteComFuncao/>
+        {/* <Familia sobrenome="Bernardo">
             <Membro nome="Kaique" />
             <Membro nome="Charlotte" />
-        </Familia>
+        </Familia> */}
         {/* <FamiliaBernardo/> */}
         {/* <MultiElementos/>
         <A valor="Olá A"/>
